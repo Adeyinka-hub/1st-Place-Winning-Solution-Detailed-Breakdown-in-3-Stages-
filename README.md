@@ -8,6 +8,7 @@ In this step:
 The number of samples in each class is counted and stored in a dictionary. A new column is added to the DataFrame to associate each sample with the count of its class.
 The paths to the images are constructed and added as a column, making it easy to reference image files.
 The class names (e.g., "Tomato_Late_Blight") are converted into numerical labels using a mapping dictionary. This transformation is necessary for machine learning models, as they operate on numerical inputs rather than text labels.
+
 **Visualizing the Data**
 The frequency of samples in each class is plotted as a bar chart. This helps understand the distribution of the data and identify any imbalance among the classes. For example, if some classes have very few samples compared to others, it could signal the need for special handling, such as oversampling or data augmentation.
 ### Filtering the Data
