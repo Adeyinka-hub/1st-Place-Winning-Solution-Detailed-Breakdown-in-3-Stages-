@@ -58,11 +58,11 @@ The training process divides the dataset into training and validation sets based
 ## Custom Dataset Class
 Implements a PyTorch Dataset class (TestRAIL) to handle test images:
 
-__init__:   Accepts image paths and optional transformations.
+**__init__:   Accepts image paths and optional transformations.**
 
-__getitem__:  Loads, processes, and normalizes an image.
+**__getitem__:  Loads, processes, and normalizes an image.**
 
-__len__:  Returns the number of test samples.
+**__len__:  Returns the number of test samples.**
 
 ## Transformations
 - Uses albumentations for image preprocessing during inference:
