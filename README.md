@@ -57,9 +57,13 @@ The training process divides the dataset into training and validation sets based
 - Reverse mappings (e.g., id_to_class) allow for converting predictions back to human-readable labels.
 ## Custom Dataset Class
 Implements a PyTorch Dataset class (TestRAIL) to handle test images:
+
 __init__:   Accepts image paths and optional transformations.
+
 __getitem__:  Loads, processes, and normalizes an image.
+
 __len__:  Returns the number of test samples.
+
 ## Transformations
 - Uses albumentations for image preprocessing during inference:
 - Resizes images to 1024x1024.
